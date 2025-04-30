@@ -1,0 +1,11 @@
+langchain-groq
+langchain
+langchain_community
+langchainhub
+langgraph
+langchain-chroma
+huggingface_hub
+unstructured
+sentence_transformers
+langchain_huggingface
+tiktoken
