@@ -1,0 +1,1 @@
+TESTBED_DIR="/path/to/testbed"; COMPRESS_FORMAT="gzip"; find "$TESTBED_DIR" -type f -mtime +7 -exec gzip -v {} \;

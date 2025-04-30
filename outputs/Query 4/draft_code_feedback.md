@@ -1,0 +1,1 @@
+The script is empty. Please provide a Bash script that compresses regular files in the testbed directory tree that were last modified more than 7 days ago. Consider using `find` command to search for files and `gzip` or other compression tools to compress the files. Also, handle errors and edge cases appropriately.
