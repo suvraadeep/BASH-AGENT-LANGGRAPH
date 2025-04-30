@@ -1,0 +1,2754 @@
+[
+  {
+    "command": "accept",
+    "description": "Accept or Reject jobs to a destination, such as a printer."
+  },
+  {
+    "command": "access",
+    "description": "Check a user\u2019s RWX(read, write and execute) permission for a file."
+  },
+  {
+    "command": "accton",
+    "description": "Used to turn on or turn off the process for accounting or change info process accounting file."
+  },
+  {
+    "command": "aclocal",
+    "description": "Used to automatically generate aclocal.m4 files from configure.in file."
+  },
+  {
+    "command": "aconnect",
+    "description": "ALSA(Advanced Linux Sound Architecture) sequencer connection manager."
+  },
+  {
+    "command": "acpi",
+    "description": "Show information about the Advanced Configuration and Power Interface."
+  },
+  {
+    "command": "acpi_available",
+    "description": "Check if ACPI(Advanced Configuration and Power Interface) functionality exists on the system."
+  },
+  {
+    "command": "acpid",
+    "description": "Informs user-space programs about ACPI events."
+  },
+  {
+    "command": "addr2line",
+    "description": "Used to convert addresses into file names and line numbers."
+  },
+  {
+    "command": "addresses",
+    "description": "Formats for internet mail addresses."
+  },
+  {
+    "command": "agetty",
+    "description": "An alternative Linux Getty that manages physical or virtual terminals to allow multi-user access"
+  },
+  {
+    "command": "alias",
+    "description": "Create an alias, a shortcut that references a command."
+  },
+  {
+    "command": "alsactl",
+    "description": "Access advanced controls for ALSA soundcard driver."
+  },
+  {
+    "command": "amidi",
+    "description": "Perform read/write operation for ALSA RawMIDI ports."
+  },
+  {
+    "command": "amixer",
+    "description": "Access CLI-based mixer for ALSA soundcard driver."
+  },
+  {
+    "command": "anacron",
+    "description": "Used to run commands periodically."
+  },
+  {
+    "command": "aplay",
+    "description": "Sound recorder and player for CLI."
+  },
+  {
+    "command": "aplaymidi",
+    "description": "CLI utility used to play MIDI files."
+  },
+  {
+    "command": "apm",
+    "description": "Show Advanced Power Management (APM) hardware info on older systems."
+  },
+  {
+    "command": "apmd",
+    "description": "Used to handle events reported by APM BIOS drivers."
+  },
+  {
+    "command": "apropos",
+    "description": "Shows the list of all man pages containing a specific keyword."
+  },
+  {
+    "command": "apt",
+    "description": "Advanced Package Tool, a package management system for Debian and derivatives."
+  },
+  {
+    "command": "apt-get",
+    "description": "Command-line utility to install/remove/update packages based on APT system."
+  },
+  {
+    "command": "aptitude",
+    "description": "Another utility to add/remove/upgrade packages based on the APT system."
+  },
+  {
+    "command": "ar",
+    "description": "A utility to create/modify/extract from archives."
+  },
+  {
+    "command": "arch",
+    "description": "Display print machine hardware name."
+  },
+  {
+    "command": "arecord",
+    "description": "Just like aplay, it\u2019s a sound recorder and player for ALSA soundcard driver."
+  },
+  {
+    "command": "arecordmidi",
+    "description": "Record standard MIDI files."
+  },
+  {
+    "command": "arp",
+    "description": "Used to make changes to the system\u2019s ARP cache."
+  },
+  {
+    "command": "as",
+    "description": "A portable GNU assembler."
+  },
+  {
+    "command": "aspell",
+    "description": "An interactive spell checker utility."
+  },
+  {
+    "command": "at",
+    "description": "Used to schedule command execution at specified date & time, reading commands from an input file."
+  },
+  {
+    "command": "atd",
+    "description": "Used to execute jobs queued by the at command."
+  },
+  {
+    "command": "atq",
+    "description": "List a user\u2019s pending jobs for the at command."
+  },
+  {
+    "command": "atrm",
+    "description": "Delete jobs queued by the at command."
+  },
+  {
+    "command": "audiosend",
+    "description": "Used to send an audio recording as an email."
+  },
+  {
+    "command": "aumix",
+    "description": "An audio mixer utility."
+  },
+  {
+    "command": "autoconf",
+    "description": "Generate configuration scripts from a TEMPLATE-FILE and send the output to standard output."
+  },
+  {
+    "command": "autoheader",
+    "description": "Create a template header for configure."
+  },
+  {
+    "command": "automake",
+    "description": "Creates GNU standards-compliant Makefiles from template files."
+  },
+  {
+    "command": "autoreconf",
+    "description": "Update generated configuration files."
+  },
+  {
+    "command": "autoscan",
+    "description": "Generate a preliminary configure.in file."
+  },
+  {
+    "command": "autoupdate",
+    "description": "Update a configure.in file to newer autoconf."
+  },
+  {
+    "command": "awk",
+    "description": "A scripting language used for manipulating data and generating reports. Also used to find and replace text in a file(s)."
+  },
+  {
+    "command": "badblocks",
+    "description": "Search a disk partition for bad sectors."
+  },
+  {
+    "command": "banner",
+    "description": "Used to print characters as a poster."
+  },
+  {
+    "command": "basename",
+    "description": "Used to display filenames with directory or suffix."
+  },
+  {
+    "command": "bash",
+    "description": "GNU Bourne-Again Shell."
+  },
+  {
+    "command": "batch",
+    "description": "Used to run commands entered on a standard input."
+  },
+  {
+    "command": "bc",
+    "description": "Access the GNU bc calculator utility."
+  },
+  {
+    "command": "bg",
+    "description": "Send processes to the background."
+  },
+  {
+    "command": "biff",
+    "description": "Notify about incoming mail and sender\u2019s name on a system running comsat server."
+  },
+  {
+    "command": "bind",
+    "description": "Used to attach a name to a socket."
+  },
+  {
+    "command": "bison",
+    "description": "A GNU parser generator, compatible with yacc."
+  },
+  {
+    "command": "break",
+    "description": "Used to exit from a loop (eg: for, while, select)."
+  },
+  {
+    "command": "builtin",
+    "description": "Used to run shell builtin commands, make custom functions for commands extending their functionality."
+  },
+  {
+    "command": "bzcmp",
+    "description": "Used to call the cmp program forbzip2 compressed files."
+  },
+  {
+    "command": "bzdiff",
+    "description": "Used to call the diff program for bzip2 compressed files."
+  },
+  {
+    "command": "bzgrep",
+    "description": "Used to call grep for bzip2 compressed files."
+  },
+  {
+    "command": "bzip2",
+    "description": "A block-sorting file compressor used to shrink given files."
+  },
+  {
+    "command": "bzless",
+    "description": "Used to apply \u2018less\u2019 (show info one page at a time) to bzip2 compressed files."
+  },
+  {
+    "command": "bzmore",
+    "description": "Used to apply \u2018more\u2019 (an inferior version of less) to bzip2 compressed files."
+  },
+  {
+    "command": "cal",
+    "description": "Show calendar."
+  },
+  {
+    "command": "cardctl",
+    "description": "Used to control PCMCIA sockets and select configuration schemes."
+  },
+  {
+    "command": "cardmgr",
+    "description": "Keeps an eye on the added/removes sockets for PCMCIA devices."
+  },
+  {
+    "command": "case",
+    "description": "Execute a command conditionally by matching a pattern."
+  },
+  {
+    "command": "cat",
+    "description": "Used to concatenate files and print them on the screen."
+  },
+  {
+    "command": "cc",
+    "description": "GNU C and C++ compiler."
+  },
+  {
+    "command": "ccrypt",
+    "description": "Used for encryption and decryption of data."
+  },
+  {
+    "command": "cd",
+    "description": "Used to change directory."
+  },
+  {
+    "command": "cdda2wav",
+    "description": "Used to rip a CD-ROM and make WAV file."
+  },
+  {
+    "command": "cdparanoia",
+    "description": "Record audio from CD more reliably using data-verification algorithms."
+  },
+  {
+    "command": "cdrdao",
+    "description": "Used to write all the content specified to a file to a CD all at once."
+  },
+  {
+    "command": "cdrecord",
+    "description": "Used to record data or audio compact discs."
+  },
+  {
+    "command": "cfdisk",
+    "description": "Show or change the disk partition table."
+  },
+  {
+    "command": "chage",
+    "description": "Used to change user password information."
+  },
+  {
+    "command": "chattr",
+    "description": "Used to change file attributes."
+  },
+  {
+    "command": "chdir",
+    "description": "Used to change active working directory."
+  },
+  {
+    "command": "chfn",
+    "description": "Used to change real user name and information."
+  },
+  {
+    "command": "chgrp",
+    "description": "Used to change group ownership for file."
+  },
+  {
+    "command": "chkconfig",
+    "description": "Manage execution of runlevel services."
+  },
+  {
+    "command": "chmod",
+    "description": "Change access permission for a file(s)."
+  },
+  {
+    "command": "chown",
+    "description": "Change the owner or group for a file."
+  },
+  {
+    "command": "chpasswd",
+    "description": "Update password in a batch."
+  },
+  {
+    "command": "chroot",
+    "description": "Run a command with root directory."
+  },
+  {
+    "command": "chrt",
+    "description": "Alter process attributed in real-time."
+  },
+  {
+    "command": "chsh",
+    "description": "Switch login shell."
+  },
+  {
+    "command": "chvt",
+    "description": "Change foreground virtual terminal."
+  },
+  {
+    "command": "cksum",
+    "description": "Perform a CRC checksum for files."
+  },
+  {
+    "command": "clear",
+    "description": "Used to clear the terminal window."
+  },
+  {
+    "command": "cmp",
+    "description": "Compare two files (byte by byte)."
+  },
+  {
+    "command": "col",
+    "description": "Filter reverse (and half-reverse) line feeds from the input."
+  },
+  {
+    "command": "colcrt",
+    "description": "Filter nroff output for CRT previewing."
+  },
+  {
+    "command": "colrm",
+    "description": "Remove columns from the lines of a file."
+  },
+  {
+    "command": "column",
+    "description": "A utility that formats its input into columns."
+  },
+  {
+    "command": "comm",
+    "description": "Used to compare two sorted files line by line."
+  },
+  {
+    "command": "command",
+    "description": "Used to execute a command with arguments ignoring shell function named command."
+  },
+  {
+    "command": "compress",
+    "description": "Used to compress one or more file(s) and replacing the originals ones."
+  },
+  {
+    "command": "continue",
+    "description": "Resume the next iteration of a loop."
+  },
+  {
+    "command": "cp",
+    "description": "Copy contents of one file to another."
+  },
+  {
+    "command": "cpio",
+    "description": "Copy files from and to archives."
+  },
+  {
+    "command": "cpp",
+    "description": "GNU C language processor."
+  },
+  {
+    "command": "cron",
+    "description": "A daemon to execute scheduled commands."
+  },
+  {
+    "command": "crond",
+    "description": "Same work as cron."
+  },
+  {
+    "command": "crontab",
+    "description": "Manage crontab files (containing schedules commands) for users."
+  },
+  {
+    "command": "csplit",
+    "description": "Split a file into sections on the basis of context lines."
+  },
+  {
+    "command": "ctags",
+    "description": "Make a list of functions and macro names defined in a programming source file."
+  },
+  {
+    "command": "cupsd",
+    "description": "A scheduler for CUPS."
+  },
+  {
+    "command": "curl",
+    "description": "Used to transfer data from or to a server using supported protocols."
+  },
+  {
+    "command": "cut",
+    "description": "Used to remove sections from each line of a file(s)."
+  },
+  {
+    "command": "cvs",
+    "description": "Concurrent Versions System. Used to track file versions, allow storage/retrieval of previous versions, and enables multiple users to work on the same file."
+  },
+  {
+    "command": "date",
+    "description": "Show system date and time."
+  },
+  {
+    "command": "dc",
+    "description": "Desk calculator utility."
+  },
+  {
+    "command": "dd",
+    "description": "Used to convert and copy a file, create disk clone, write disk headers, etc."
+  },
+  {
+    "command": "ddrescue",
+    "description": "Used to recover data from a crashed partition."
+  },
+  {
+    "command": "deallocvt",
+    "description": "Deallocates kernel memory for unused virtual consoles."
+  },
+  {
+    "command": "debugfs",
+    "description": "File system debugger for ext2/ext3/ext4"
+  },
+  {
+    "command": "declare",
+    "description": "Used to declare variables and assign attributes."
+  },
+  {
+    "command": "depmod",
+    "description": "Generate modules.dep and map files."
+  },
+  {
+    "command": "devdump",
+    "description": "Interactively displays the contents of device or file system ISO."
+  },
+  {
+    "command": "df",
+    "description": "Show disk usage."
+  },
+  {
+    "command": "diff",
+    "description": "Used to compare files line by line."
+  },
+  {
+    "command": "diff3",
+    "description": "Compare three files line by line."
+  },
+  {
+    "command": "dig",
+    "description": "Domain Information Groper, a DNS lookup utility."
+  },
+  {
+    "command": "dir",
+    "description": "List the contents of a directory."
+  },
+  {
+    "command": "dircolors",
+    "description": "Set colors for \u2018ls\u2019 by altering the LS_COLORS environment variable."
+  },
+  {
+    "command": "dirname",
+    "description": "Display pathname after removing the last slash and characters thereafter."
+  },
+  {
+    "command": "dirs",
+    "description": "Show the list of remembered directories."
+  },
+  {
+    "command": "disable",
+    "description": "Restrict access to a printer."
+  },
+  {
+    "command": "dlpsh",
+    "description": "Interactive Desktop Link Protocol (DLP) shell for PalmOS."
+  },
+  {
+    "command": "dmesg",
+    "description": "Examine and control the kernel ring buffer."
+  },
+  {
+    "command": "dmidecode",
+    "description": "Used when the user wants to retrieve system\u2019s hardware related information such as Processor, RAM(DIMMs), BIOS detail, etc. of Linux system in a readable format."
+  },
+  {
+    "command": "dnsdomainname",
+    "description": "Show the DNS domain name of the system."
+  },
+  {
+    "command": "dnssec-keygen",
+    "description": "Generate encrypted Secure DNS keys for a given domain name."
+  },
+  {
+    "command": "dnssec-makekeyset",
+    "description": "Produce domain key set from one or more DNS security keys generated by dnssec-keygen."
+  },
+  {
+    "command": "dnssec-signkey",
+    "description": "Sign a secure DNS keyset with key signatures specified in the list of key-identifiers."
+  },
+  {
+    "command": "dnssec-signzone",
+    "description": "Sign a secure DNS zonefile with the signatures in the specified list of key-identifiers."
+  },
+  {
+    "command": "doexec",
+    "description": "Used to run an executable with an arbitrary argv list provided."
+  },
+  {
+    "command": "domainname",
+    "description": "Show or set the name of current NIS (Network Information Services) domain."
+  },
+  {
+    "command": "dosfsck",
+    "description": "Used to retrieve information or statistics form components of the system such as network connections, IO devices, or CPU, etc."
+  },
+  {
+    "command": "dpkg",
+    "description": "Install, build, remove and manage debian software packages."
+  },
+  {
+    "command": "dstat",
+    "description": "Check and repair MS-DOS file systems."
+  },
+  {
+    "command": "du",
+    "description": "Show disk usage summary for a file(s)."
+  },
+  {
+    "command": "dump",
+    "description": "Backup utility for ext2/ext3 file systems."
+  },
+  {
+    "command": "dumpe2fs",
+    "description": "Dump ext2/ext3/ext4 file systems."
+  },
+  {
+    "command": "dumpkeys",
+    "description": "Show information about the keyboard driver\u2019s current translation tables."
+  },
+  {
+    "command": "e2fsck",
+    "description": "Used to check ext2/ext3/ext4 file systems."
+  },
+  {
+    "command": "e2image",
+    "description": "Store important ext2/ext3/ext4 filesystem metadata to a file."
+  },
+  {
+    "command": "e2label",
+    "description": "Show or change the label on an ext2/ext3/ext4 filesystem."
+  },
+  {
+    "command": "echo",
+    "description": "Send input string(s) to standard output i.e. display text on the screen."
+  },
+  {
+    "command": "ed",
+    "description": "GNU Ed \u2013 a line-oriented text editor."
+  },
+  {
+    "command": "edquota",
+    "description": "Used to edit filesystem quotas using a text editor, such as vi."
+  },
+  {
+    "command": "egrep",
+    "description": "Search and display text matching a pattern."
+  },
+  {
+    "command": "eject",
+    "description": "Eject removable media."
+  },
+  {
+    "command": "elvtune",
+    "description": "Used to set latency in the elevator algorithm used to schedule I/O activities for specified block devices."
+  },
+  {
+    "command": "emacs",
+    "description": "Emacs text editor command line utility."
+  },
+  {
+    "command": "enable",
+    "description": "Used to enable/disable shell builtin commands."
+  },
+  {
+    "command": "env",
+    "description": "Run a command in a modified environment. Show/set/delete environment variables."
+  },
+  {
+    "command": "envsubst",
+    "description": "Substitute environment variable values in shell format strings."
+  },
+  {
+    "command": "esd",
+    "description": "Start the Enlightenment Sound Daemon (EsounD or esd). Enables multiple applications to access the same audio device simultaneously."
+  },
+  {
+    "command": "esd-config",
+    "description": "Manage EsounD configuration."
+  },
+  {
+    "command": "esdcat",
+    "description": "Use EsounD to send audio data from a specified file."
+  },
+  {
+    "command": "esdctl",
+    "description": "EsounD control program."
+  },
+  {
+    "command": "esddsp",
+    "description": "Used to reroute non-esd audio data to esd and control all the audio using esd."
+  },
+  {
+    "command": "esdmon",
+    "description": "Used to copy the sound being sent to a device. Also, send it to a secondary device."
+  },
+  {
+    "command": "esdplay",
+    "description": "Use EsounD system to play a file."
+  },
+  {
+    "command": "esdrec",
+    "description": "Use EsounD to record audio to a specified file."
+  },
+  {
+    "command": "esdsample",
+    "description": "Sample audio using esd."
+  },
+  {
+    "command": "etags",
+    "description": "Used to create a list of functions and macros from a programming source file. These etags are used by emacs. For vi, use ctags."
+  },
+  {
+    "command": "ethtool",
+    "description": "Used to query and control network driver and hardware settings."
+  },
+  {
+    "command": "eval",
+    "description": "Used to evaluate multiple commands or arguments are once."
+  },
+  {
+    "command": "ex",
+    "description": "Interactive command"
+  },
+  {
+    "command": "exec",
+    "description": "An interactive line-based text editor."
+  },
+  {
+    "command": "exit",
+    "description": "Exit from the terminal."
+  },
+  {
+    "command": "expand",
+    "description": "Convert tabs into spaces in a given file and show the output."
+  },
+  {
+    "command": "expect",
+    "description": "An extension to the Tcl script, it\u2019s used to automate interaction with other applications based on their expected output."
+  },
+  {
+    "command": "export",
+    "description": "Used to set an environment variable."
+  },
+  {
+    "command": "expr",
+    "description": "Evaluate expressions and display them on standard output."
+  },
+  {
+    "command": "factor",
+    "description": "Display prime factors of specified integer numbers."
+  },
+  {
+    "command": "false",
+    "description": "Do nothing, unsuccessfully. Exit with a status code indicating failure."
+  },
+  {
+    "command": "fc",
+    "description": "Used to list, edit or re-execute the commands previously entered into an interactive shell."
+  },
+  {
+    "command": "fc-cache",
+    "description": "Make font information cache after scanning the directories."
+  },
+  {
+    "command": "fc-list",
+    "description": "Show the list of available fonts."
+  },
+  {
+    "command": "fdformat",
+    "description": "Do a low-level format on a floppy disk."
+  },
+  {
+    "command": "fdisk",
+    "description": "Make changes to the disk partition table."
+  },
+  {
+    "command": "fetchmail",
+    "description": "Fetch mail from mail servers and forward it to the local mail delivery system."
+  },
+  {
+    "command": "fg",
+    "description": "Used to send a job to the foreground."
+  },
+  {
+    "command": "fgconsole",
+    "description": "Display the number of the current virtual console."
+  },
+  {
+    "command": "fgrep",
+    "description": "Display lines from a file(s) that match a specified string. A variant of grep."
+  },
+  {
+    "command": "file",
+    "description": "Determine file type for a file."
+  },
+  {
+    "command": "find",
+    "description": "Do a file search in a directory hierarchy."
+  },
+  {
+    "command": "finger",
+    "description": "Display user data including the information listed in.planand.projectin each user\u2019s home directory."
+  },
+  {
+    "command": "fingerd",
+    "description": "Provides a network interface for the finger program."
+  },
+  {
+    "command": "flex",
+    "description": "Generate programs that perform pattern-matching on text."
+  },
+  {
+    "command": "fmt",
+    "description": "Used to convert text to a specified width by filling lines and removing new lines, displaying the output."
+  },
+  {
+    "command": "fold",
+    "description": "Wrap input line to fit in a specified width."
+  },
+  {
+    "command": "for",
+    "description": "Expand words and run commands for each one in the resultant list."
+  },
+  {
+    "command": "formail",
+    "description": "Used to filter standard input into mailbox format."
+  },
+  {
+    "command": "format",
+    "description": "Used to format disks."
+  },
+  {
+    "command": "free",
+    "description": "Show free and used system memory."
+  },
+  {
+    "command": "fsck",
+    "description": "Check and repair a Linux file system"
+  },
+  {
+    "command": "ftp",
+    "description": "File transfer protocol user interface."
+  },
+  {
+    "command": "ftpd",
+    "description": "FTP server process."
+  },
+  {
+    "command": "function",
+    "description": "Used to define function macros."
+  },
+  {
+    "command": "Fun",
+    "description": "Used to draw various type of patterns on the terminal."
+  },
+  {
+    "command": "fuser",
+    "description": "Find and kill a process accessing a file."
+  },
+  {
+    "command": "g++",
+    "description": "Run the g++ compiler."
+  },
+  {
+    "command": "gawk",
+    "description": "Used for pattern scanning and language processing. A GNU implementation of AWK language."
+  },
+  {
+    "command": "gcc",
+    "description": "A C and C++ compiler by GNU."
+  },
+  {
+    "command": "gdb",
+    "description": "A utility to debug programs and know about where it crashes."
+  },
+  {
+    "command": "getent",
+    "description": "Shows entries from Name Service Switch Libraries for specified keys."
+  },
+  {
+    "command": "getkeycodes",
+    "description": "Displays the kernel scancode-to-keycode mapping table."
+  },
+  {
+    "command": "getopts",
+    "description": "A utility to parse positional parameters."
+  },
+  {
+    "command": "gpasswd",
+    "description": "Allows an administrator to change group passwords."
+  },
+  {
+    "command": "gpg",
+    "description": "Enables encryption and signing services as per the OpenPGP standard."
+  },
+  {
+    "command": "gpgsplit",
+    "description": "Used to split an OpenPGP message into packets."
+  },
+  {
+    "command": "gpgv",
+    "description": "Used to verify OpenPGP signatures."
+  },
+  {
+    "command": "gpm",
+    "description": "It enables cut and paste functionality and a mouse server for the Linux console."
+  },
+  {
+    "command": "gprof",
+    "description": "Shows call graph profile data."
+  },
+  {
+    "command": "grep",
+    "description": "Searches input files for a given pattern and displays the relevant lines."
+  },
+  {
+    "command": "groff",
+    "description": "Serves as the front-end of the groff document formatting system."
+  },
+  {
+    "command": "groffer",
+    "description": "Displays groff files and man pages."
+  },
+  {
+    "command": "groupadd",
+    "description": "Used to add a new user group."
+  },
+  {
+    "command": "groupdel",
+    "description": "Used to remove a user group."
+  },
+  {
+    "command": "groupmod",
+    "description": "Used to modify a group definition."
+  },
+  {
+    "command": "groups",
+    "description": "Showthe group(s) to which a user belongs."
+  },
+  {
+    "command": "grpck",
+    "description": "Verifies the integrity of group files."
+  },
+  {
+    "command": "grpconv",
+    "description": "Creates agshadow file from a group or an already existing gshadow."
+  },
+  {
+    "command": "gs",
+    "description": "Invokes Ghostscript, and interpreter and previewer for Adobe\u2019s PostScript and PDF languages."
+  },
+  {
+    "command": "gunzip",
+    "description": "A utility to compress/expand files."
+  },
+  {
+    "command": "gzexe",
+    "description": "Used compress executable files in place and have them automatically uncompress and run at a later stage."
+  },
+  {
+    "command": "gzip",
+    "description": "A utility to compress/expand files."
+  },
+  {
+    "command": "halt",
+    "description": "Command used to half the machine."
+  },
+  {
+    "command": "hash",
+    "description": "Shows the path for the commands executed in the shell."
+  },
+  {
+    "command": "hdparm",
+    "description": "Show/configure parameters for SATA/IDE devices."
+  },
+  {
+    "command": "head",
+    "description": "Shows first 10 lines from each specified file."
+  },
+  {
+    "command": "help",
+    "description": "Display\u2019s help for a built-in command."
+  },
+  {
+    "command": "hexdump",
+    "description": "Shows specified file output in hexadecimal, octal, decimal, or ASCII format."
+  },
+  {
+    "command": "history",
+    "description": "Shows the command history."
+  },
+  {
+    "command": "host",
+    "description": "A utility to perform DNS lookups."
+  },
+  {
+    "command": "hostid",
+    "description": "Shows host\u2019s numeric ID in hexadecimal format."
+  },
+  {
+    "command": "hostname",
+    "description": "Display/set the hostname of the system."
+  },
+  {
+    "command": "hostnamectl",
+    "description": "Provides a proper API used to control Linux system hostname and change its related settings."
+  },
+  {
+    "command": "htdigest",
+    "description": "Manage the user authentication file used by the Apache web server."
+  },
+  {
+    "command": "htop",
+    "description": "An interactive process viewer for the command line."
+  },
+  {
+    "command": "hwclock",
+    "description": "Show or configure the system\u2019s hardware clock."
+  },
+  {
+    "command": "iconv",
+    "description": "Convert text file from one encoding to another."
+  },
+  {
+    "command": "id",
+    "description": "Show user and group information for a specified user."
+  },
+  {
+    "command": "if",
+    "description": "Execute a command conditionally."
+  },
+  {
+    "command": "ifconfig",
+    "description": "Used to configure network interfaces."
+  },
+  {
+    "command": "ifdown",
+    "description": "Stops a network interface."
+  },
+  {
+    "command": "iftop",
+    "description": "It is a network analyzing tool used by system administrators to view the bandwidth related stats."
+  },
+  {
+    "command": "ifup",
+    "description": "Starts a network interface."
+  },
+  {
+    "command": "imapd",
+    "description": "An IMAP (Interactive Mail Access Protocol) server daemon."
+  },
+  {
+    "command": "import",
+    "description": "Capture an X server screen and saves it as an image."
+  },
+  {
+    "command": "inetd",
+    "description": "Extended internet services daemon, it starts the programs that provide internet services."
+  },
+  {
+    "command": "info",
+    "description": "Used to read the documentation in Info format."
+  },
+  {
+    "command": "init",
+    "description": "Systemd system and service manager."
+  },
+  {
+    "command": "insmod",
+    "description": "A program that inserts a module into the Linux kernel."
+  },
+  {
+    "command": "install",
+    "description": "Used to copy files to specified locations and set attributions during the install process."
+  },
+  {
+    "command": "iostat",
+    "description": "Shows statistics for CPU, I/O devices, partitions, network filesystems."
+  },
+  {
+    "command": "iotop",
+    "description": "Used to display and monitor the disk IO usage details and even gets a table of existing IO utilization by the process."
+  },
+  {
+    "command": "ip",
+    "description": "Display/manipulate routing, devices, policy, routing and tunnels."
+  },
+  {
+    "command": "ipcrm",
+    "description": "Used to remove System V interprocess communication (IPC) objects and associated data structures."
+  },
+  {
+    "command": "ipcs",
+    "description": "Show information on IPC facilities for which calling process has read access."
+  },
+  {
+    "command": "iptables",
+    "description": "Administration tool for IPv4 packet filtering and NAT."
+  },
+  {
+    "command": "iptables-restore",
+    "description": "Used to restore IP tables from data specified in the input or a file."
+  },
+  {
+    "command": "iptables-save",
+    "description": "Used to dump IP table contents to standard output."
+  },
+  {
+    "command": "iwconfig",
+    "description": "Used to display the parameters, and the wireless statistics which are extracted from /proc/net/wireless."
+  },
+  {
+    "command": "isodump",
+    "description": "A utility that shows the content iso9660 images to verify the integrity of directory contents."
+  },
+  {
+    "command": "isoinfo",
+    "description": "A utility to perform directory like listings of iso9660 images."
+  },
+  {
+    "command": "isosize",
+    "description": "Show the length of an iso9660 filesystem contained in a specified file."
+  },
+  {
+    "command": "isovfy",
+    "description": "Verifies the integrity of an iso9660 image."
+  },
+  {
+    "command": "ispell",
+    "description": "A CLI-based spell-check utility."
+  },
+  {
+    "command": "jobs",
+    "description": "Show the list of active jobs and their status."
+  },
+  {
+    "command": "join",
+    "description": "For each pair of input lines, join them using a command field and display on standard output."
+  },
+  {
+    "command": "kbd_mode",
+    "description": "Set a keyboard mode. Without arguments, shows the current keyboard mode."
+  },
+  {
+    "command": "kbdrate",
+    "description": "Reset keyboard repeat rate and delay time."
+  },
+  {
+    "command": "kill",
+    "description": "Send a kill (termination) signal to one more processes."
+  },
+  {
+    "command": "killall",
+    "description": "Kills a process(es) running a specified command."
+  },
+  {
+    "command": "killall5",
+    "description": "A SystemV killall command. Kills all the processes excluding the ones which it depends on."
+  },
+  {
+    "command": "klogd",
+    "description": "Control and prioritize the kernel messages to be displayed on the console, and log them through syslogd."
+  },
+  {
+    "command": "kudzu",
+    "description": "Used to detect new and enhanced hardware by comparing it with existing database. Only for RHEL and derivatives."
+  },
+  {
+    "command": "last",
+    "description": "Shows a list of recent logins on the system by fetching data from/var/log/wtmpfile."
+  },
+  {
+    "command": "lastb",
+    "description": "Shows the list of bad login attempts by fetching data from/var/log/btmpfile."
+  },
+  {
+    "command": "lastlog",
+    "description": "Displays information about the most recent login of all users or a specified user."
+  },
+  {
+    "command": "ld",
+    "description": "The Unix linker, it combines archives and object files. It then puts them into one output file, resolving external references."
+  },
+  {
+    "command": "ldconfig",
+    "description": "Configure dynamic linker run-time bindings."
+  },
+  {
+    "command": "ldd",
+    "description": "Shows shared object dependencies."
+  },
+  {
+    "command": "less",
+    "description": "Displays contents of a fileone page at a time. It\u2019s advanced thanmorecommand."
+  },
+  {
+    "command": "lesskey",
+    "description": "Used to specify key bindings for less command."
+  },
+  {
+    "command": "let",
+    "description": "Used to perform integer artithmetic on shell variables."
+  },
+  {
+    "command": "lftp",
+    "description": "An FTP utility with extra features."
+  },
+  {
+    "command": "lftpget",
+    "description": "Uses lftop to retrieve HTTP, FTP, and other protocol URLs supported by lftp."
+  },
+  {
+    "command": "link",
+    "description": "Create links between two files. Similar to ln command."
+  },
+  {
+    "command": "ln",
+    "description": "Create links between files. Links can be hard (two names for the same file) or soft (a shortcut of the first file)."
+  },
+  {
+    "command": "loadkeys",
+    "description": "Load keyboard translation tables."
+  },
+  {
+    "command": "local",
+    "description": "Used to create function variables."
+  },
+  {
+    "command": "locale",
+    "description": "Shows information about current or all locales."
+  },
+  {
+    "command": "locate",
+    "description": "Used to find files by their name."
+  },
+  {
+    "command": "lockfile",
+    "description": "Create semaphore file(s) which can be used to limit access to a file."
+  },
+  {
+    "command": "logger",
+    "description": "Make entries in the system log."
+  },
+  {
+    "command": "login",
+    "description": "Create a new session on the system."
+  },
+  {
+    "command": "logname",
+    "description": "Shows the login name of the current user."
+  },
+  {
+    "command": "logout",
+    "description": "Performs the logout operation by making changes to the utmp and wtmp files."
+  },
+  {
+    "command": "logrotate",
+    "description": "Used for automatic rotation, compression, removal, and mailing of system log files."
+  },
+  {
+    "command": "look",
+    "description": "Shows any lines in a file containing a given string in the beginning."
+  },
+  {
+    "command": "losetup",
+    "description": "Set up and control loop devices."
+  },
+  {
+    "command": "lpadmin",
+    "description": "Used to configure printer and class queues provided by CUPS (Common UNIX Printing System)."
+  },
+  {
+    "command": "lpc",
+    "description": "Line printer control program, it provides limited control over CUPS printer and class queues."
+  },
+  {
+    "command": "lpinfo",
+    "description": "Shows the list of available devices and drivers known to the CUPS server."
+  },
+  {
+    "command": "lpmove",
+    "description": "Move on or more printing jobs to a new destination."
+  },
+  {
+    "command": "lpq",
+    "description": "Shows current print queue status for a specified printer."
+  },
+  {
+    "command": "lpr",
+    "description": "Used to submit files for printing."
+  },
+  {
+    "command": "lprint",
+    "description": "Used to print a file."
+  },
+  {
+    "command": "lprintd",
+    "description": "Used to abort a print job."
+  },
+  {
+    "command": "lprintq",
+    "description": "List the print queue."
+  },
+  {
+    "command": "lprm",
+    "description": "Cancel print jobs."
+  },
+  {
+    "command": "lpstat",
+    "description": "Displays status information about current classes, jobs, and printers."
+  },
+  {
+    "command": "ls",
+    "description": "Shows the list of files in the current directory."
+  },
+  {
+    "command": "lsattr",
+    "description": "Shows file attributes on a Linux ext2 file system."
+  },
+  {
+    "command": "lsblk",
+    "description": "Lists information about all available or the specified block devices."
+  },
+  {
+    "command": "lshw",
+    "description": "Used to generate the detailed information of the system\u2019s hardware configuration from various files in the /proc directory."
+  },
+  {
+    "command": "lsmod",
+    "description": "Show the status of modules in the Linux kernel."
+  },
+  {
+    "command": "lsof",
+    "description": "List open files."
+  },
+  {
+    "command": "lspci",
+    "description": "List all PCI devices."
+  },
+  {
+    "command": "lsusb",
+    "description": "List USB devices."
+  },
+  {
+    "command": "m4",
+    "description": "Macro processor."
+  },
+  {
+    "command": "mail",
+    "description": "Utility to compose, receive, send, forward, and reply to emails."
+  },
+  {
+    "command": "mailq",
+    "description": "Shows to list all emails queued for delivery (sendmail queue)."
+  },
+  {
+    "command": "mailstats",
+    "description": "Shows current mail statistics."
+  },
+  {
+    "command": "mailto",
+    "description": "Used to send mail with multimedia content in MIME format."
+  },
+  {
+    "command": "make",
+    "description": "Utility to maintain groups of programs, recompile them if needed."
+  },
+  {
+    "command": "makedbm",
+    "description": "Creates an NIS (Network Information Services) database map."
+  },
+  {
+    "command": "makemap",
+    "description": "Creates database maps used by the keyed map lookups in sendmail."
+  },
+  {
+    "command": "man",
+    "description": "Shows manual pages for Linux commands."
+  },
+  {
+    "command": "manpath",
+    "description": "Determine search path for manual pages."
+  },
+  {
+    "command": "mattrib",
+    "description": "Used to change MS-DOS file attribute flags."
+  },
+  {
+    "command": "mbadblocks",
+    "description": "Checks MD-DOS filesystems for bad blocks."
+  },
+  {
+    "command": "mcat",
+    "description": "Dump raw disk image."
+  },
+  {
+    "command": "mcd",
+    "description": "Used to change MS-DOS directory."
+  },
+  {
+    "command": "mcopy",
+    "description": "Used to copy MS-DOS files from or to Unix."
+  },
+  {
+    "command": "md5sum",
+    "description": "Used to check MD5 checksum for a file."
+  },
+  {
+    "command": "mdel, mdeltree",
+    "description": "Used to delete MS-DOS file. mdeltree recursively deletes MS-DOS directory and its contents."
+  },
+  {
+    "command": "mdir",
+    "description": "Used to display an MS-DOS directory."
+  },
+  {
+    "command": "mdu",
+    "description": "Used to display the amount of space occupied by an MS-DOS directory."
+  },
+  {
+    "command": "merge",
+    "description": "Three-way file merge. Includes all changes from file2 and file3 to file1."
+  },
+  {
+    "command": "mesg",
+    "description": "Allow/disallow osends to sedn write messages to your terminal."
+  },
+  {
+    "command": "metamail",
+    "description": "For sending and showing rich text or multimedia email using MIME typing metadata."
+  },
+  {
+    "command": "metasend",
+    "description": "An interface for sending non-text mail."
+  },
+  {
+    "command": "mformat",
+    "description": "Used to add an MS-DOS filesystem to a low-level formatted floppy disk."
+  },
+  {
+    "command": "mimencode",
+    "description": "Translate to/from MIME multimedia mail encoding formats."
+  },
+  {
+    "command": "minfo",
+    "description": "Display parameters of an MS-DOS filesystem."
+  },
+  {
+    "command": "mkdir",
+    "description": "Used to create directories."
+  },
+  {
+    "command": "mkdosfs",
+    "description": "Used to create an MS-DOS filesystem under Linux."
+  },
+  {
+    "command": "mke2fs",
+    "description": "Used create an ext2/ext3/ext4 filesystem."
+  },
+  {
+    "command": "mkfifo",
+    "description": "Used to create named pipes (FIFOs) with the given names."
+  },
+  {
+    "command": "mkfs",
+    "description": "Used to build a Linux filesystem on a hard disk partition."
+  },
+  {
+    "command": "mkfs.ext3",
+    "description": "Same as mke2fs, create an ext3 Linux filesystem."
+  },
+  {
+    "command": "mkisofs",
+    "description": "Used to create an ISO9660/JOLIET/HFS hybrid filesystem."
+  },
+  {
+    "command": "mklost+found",
+    "description": "Create a lost+found directory on a mounted ext2 filesystem."
+  },
+  {
+    "command": "mkmanifest",
+    "description": "Makes alist of file names and their DOS 8.3 equivalent."
+  },
+  {
+    "command": "mknod",
+    "description": "Create a FIFO, block (buffered) special file, character (unbuffered) special file with the specified name."
+  },
+  {
+    "command": "mkraid",
+    "description": "Used to setup RAID device arrays."
+  },
+  {
+    "command": "mkswap",
+    "description": "Set up a Linux swap area."
+  },
+  {
+    "command": "mktemp",
+    "description": "Create a temporary file or directory."
+  },
+  {
+    "command": "mlabel",
+    "description": "Make an MD-DOS volume label."
+  },
+  {
+    "command": "mmd",
+    "description": "Make an MS-DOS subdirectory."
+  },
+  {
+    "command": "mmount",
+    "description": "Mount an MS-DOS disk."
+  },
+  {
+    "command": "mmove",
+    "description": "Move or rename an MS-DOS file or subdirectory."
+  },
+  {
+    "command": "mmv",
+    "description": "Mass move and rename files."
+  },
+  {
+    "command": "modinfo",
+    "description": "Show information about a Linux kernel module."
+  },
+  {
+    "command": "modprobe",
+    "description": "Add or remove modules from the Linux kernel."
+  },
+  {
+    "command": "more",
+    "description": "Display content of a file page-by-page."
+  },
+  {
+    "command": "most",
+    "description": "Browse or page through a text file."
+  },
+  {
+    "command": "mount",
+    "description": "Mount a filesystem."
+  },
+  {
+    "command": "mountd",
+    "description": "NFS mount daemon."
+  },
+  {
+    "command": "mpartition",
+    "description": "Used to report processor related statistics."
+  },
+  {
+    "command": "mpstat",
+    "description": "Partition an MS-DOS disk."
+  },
+  {
+    "command": "mpg123",
+    "description": "Command-line mp3 player."
+  },
+  {
+    "command": "mpg321",
+    "description": "Similar to mpg123."
+  },
+  {
+    "command": "mrd",
+    "description": "Remove an MS-DOS subdirectory."
+  },
+  {
+    "command": "mren",
+    "description": "Rename an existing MS-DOS file."
+  },
+  {
+    "command": "mshowfat",
+    "description": "Show FTA clusters allocated to a file."
+  },
+  {
+    "command": "mt",
+    "description": "Control magnetic tape drive operation."
+  },
+  {
+    "command": "mtools",
+    "description": "Utilities to access MS-DOS disks."
+  },
+  {
+    "command": "mtoolstest",
+    "description": "Tests and displays the mtools configuration files."
+  },
+  {
+    "command": "mtr",
+    "description": "A network diagnostic tool."
+  },
+  {
+    "command": "mtype",
+    "description": "Display contents of an MS-DOS file."
+  },
+  {
+    "command": "mv",
+    "description": "Move/rename files or directories."
+  },
+  {
+    "command": "mzip",
+    "description": "Change protection mode and eject disk on Zip/Jaz drive."
+  },
+  {
+    "command": "named",
+    "description": "Internet domain name server."
+  },
+  {
+    "command": "namei",
+    "description": "Follow a pathname until a terminal point is found."
+  },
+  {
+    "command": "nameif",
+    "description": "Name network interfaces based on MAC addresses."
+  },
+  {
+    "command": "nc",
+    "description": "Netcat utility. Arbitrary TCP and UDP connections and listens."
+  },
+  {
+    "command": "netstat",
+    "description": "Show network information."
+  },
+  {
+    "command": "newaliases",
+    "description": "Rebuilds mail alias database."
+  },
+  {
+    "command": "newgrp",
+    "description": "Log-in to a new group."
+  },
+  {
+    "command": "newusers",
+    "description": "Update/create new users in batch."
+  },
+  {
+    "command": "nfsd",
+    "description": "Special filesystem for controlling Linux NFS server."
+  },
+  {
+    "command": "nfsstat",
+    "description": "List NFS statistics."
+  },
+  {
+    "command": "nice",
+    "description": "Run a program with modified scheduling priority."
+  },
+  {
+    "command": "nl",
+    "description": "Show numbered line while displaying the contents of a file."
+  },
+  {
+    "command": "nm",
+    "description": "List symbols from object files."
+  },
+  {
+    "command": "nohup",
+    "description": "Run a command immune to hangups."
+  },
+  {
+    "command": "notify-send",
+    "description": "A program to send desktop notifications."
+  },
+  {
+    "command": "nslookup",
+    "description": "Used performs DNS queries. Read this article for more info."
+  },
+  {
+    "command": "nsupdate",
+    "description": "Dynamic DNS update utility."
+  },
+  {
+    "command": "objcopy",
+    "description": "Copy and translate object files."
+  },
+  {
+    "command": "objdump",
+    "description": "Display information from object files."
+  },
+  {
+    "command": "od",
+    "description": "Dump files in octal and other formats."
+  },
+  {
+    "command": "op",
+    "description": "Operator access, allows system administrators to grant users access to certain root operations that require superuser privileges."
+  },
+  {
+    "command": "open",
+    "description": "Open a file using its default application."
+  },
+  {
+    "command": "openvt",
+    "description": "Start a program on a new virtual terminal (VT)."
+  },
+  {
+    "command": "passwd",
+    "description": "Change user password."
+  },
+  {
+    "command": "paste",
+    "description": "Merge lines of files. Write to standard output, TAB-separated lines consisting of sequentially corresponding lines from each file."
+  },
+  {
+    "command": "patch",
+    "description": "Apply a patchfile (containing differences listing by diff program) to an original file."
+  },
+  {
+    "command": "pathchk",
+    "description": "Check if file names are valid or portable."
+  },
+  {
+    "command": "perl",
+    "description": "Perl 5 language interpreter."
+  },
+  {
+    "command": "pgrep",
+    "description": "List process IDs matching the specified criteria among all the running processes."
+  },
+  {
+    "command": "pidof",
+    "description": "Find process ID of a running program."
+  },
+  {
+    "command": "ping",
+    "description": "Send ICMP ECHO_REQUEST to network hosts."
+  },
+  {
+    "command": "pinky",
+    "description": "Lightweight finger."
+  },
+  {
+    "command": "pkill",
+    "description": "Send kill signal to processes based on name and other attributes."
+  },
+  {
+    "command": "pmap",
+    "description": "Report memory map of a process."
+  },
+  {
+    "command": "popd",
+    "description": "Removes directory on the head of the directory stack and takes you to the new directory on the head."
+  },
+  {
+    "command": "portmap",
+    "description": "Converts RPC program numbers to IP port numbers."
+  },
+  {
+    "command": "poweroff",
+    "description": "Shuts down the machine."
+  },
+  {
+    "command": "pppd",
+    "description": "Point-to-point protocol daemon."
+  },
+  {
+    "command": "pr",
+    "description": "Convert (column or paginate) text files for printing."
+  },
+  {
+    "command": "praliases",
+    "description": "Prints the current system mail aliases."
+  },
+  {
+    "command": "printcap",
+    "description": "Printer capability database."
+  },
+  {
+    "command": "printenv",
+    "description": "Show values of all or specified environment variables."
+  },
+  {
+    "command": "printf",
+    "description": "Show arguments formatted according to a specified format."
+  },
+  {
+    "command": "ps",
+    "description": "Report a snapshot of the current processes."
+  },
+  {
+    "command": "ptx",
+    "description": "Produce a permuted index of file contents."
+  },
+  {
+    "command": "pushd",
+    "description": "Appends a given directory name to the head of the stack and then cd to the given directory."
+  },
+  {
+    "command": "pv",
+    "description": "Monitor progress of data through a pipe."
+  },
+  {
+    "command": "pwck",
+    "description": "Verify integrity of password files."
+  },
+  {
+    "command": "pwconv",
+    "description": "Creates shadow from passwd and an optionally existing shadow."
+  },
+  {
+    "command": "pwd",
+    "description": "Show current directory."
+  },
+  {
+    "command": "python",
+    "description": "Computer programming language often used to build websites and software, automate tasks, and conduct data analysis."
+  },
+  {
+    "command": "quota",
+    "description": "Shows disk usage, and space limits for a user or group. Without arguments, only shows user quotas."
+  },
+  {
+    "command": "quotacheck",
+    "description": "Used to scan a file system for disk usage."
+  },
+  {
+    "command": "quotactl",
+    "description": "Make changes to disk quotas."
+  },
+  {
+    "command": "quotaoff",
+    "description": "Enable enforcement of filesystem quotas."
+  },
+  {
+    "command": "quotaon",
+    "description": "Disable enforcement of filesystem quotas."
+  },
+  {
+    "command": "quotastats",
+    "description": "Shows the report of quota system statistics gathered from the kernel."
+  },
+  {
+    "command": "raidstart",
+    "description": "Start/stop RAID devices."
+  },
+  {
+    "command": "ram",
+    "description": "RAM disk device used to access the RAM disk in raw mode."
+  },
+  {
+    "command": "ramsize",
+    "description": "Show usage information for the RAM disk."
+  },
+  {
+    "command": "ranlib",
+    "description": "Generate index to the contents of an archive and store it in the archive."
+  },
+  {
+    "command": "rar",
+    "description": "Create and manage RAR file in Linux."
+  },
+  {
+    "command": "rarpd",
+    "description": "Respond to Reverse Address Resolution Protocol (RARP) requests."
+  },
+  {
+    "command": "rcp",
+    "description": "Remote copy command to copy files between remote computers."
+  },
+  {
+    "command": "rdate",
+    "description": "Set system date and time by fetching information from a remote machine."
+  },
+  {
+    "command": "rdev",
+    "description": "Set or query RAM disk size, image root device, or video mode."
+  },
+  {
+    "command": "rdist",
+    "description": "Remote file distribution client, maintains identical file copies over multiple hosts."
+  },
+  {
+    "command": "rdistd",
+    "description": "Start the rdist server."
+  },
+  {
+    "command": "read",
+    "description": "Read from a file descriptor."
+  },
+  {
+    "command": "readarray",
+    "description": "Read lines from a file into an array variable."
+  },
+  {
+    "command": "readcd",
+    "description": "Read/write compact disks."
+  },
+  {
+    "command": "readelf",
+    "description": "Shows information about ELF (Executable and Linkable format) files."
+  },
+  {
+    "command": "readlink",
+    "description": "Display value of a symbolic link or canonical file name."
+  },
+  {
+    "command": "readonly",
+    "description": "Mark functions and variables as read-only."
+  },
+  {
+    "command": "reboot",
+    "description": "Restart the machine."
+  },
+  {
+    "command": "reject",
+    "description": "Accept/reject print jobs sent to a specified destination."
+  },
+  {
+    "command": "remsync",
+    "description": "Synchronize remote files over email."
+  },
+  {
+    "command": "rename",
+    "description": "Rename one or more files."
+  },
+  {
+    "command": "renice",
+    "description": "Change priority of active processes."
+  },
+  {
+    "command": "repquota",
+    "description": "Report disk usage and quotas for a specified filesystem."
+  },
+  {
+    "command": "reset",
+    "description": "Reinitialize the terminal."
+  },
+  {
+    "command": "resize2fs",
+    "description": "Used to resize ext2/ext3/ext4 file systems."
+  },
+  {
+    "command": "restore",
+    "description": "Restore files from a backup created using dump."
+  },
+  {
+    "command": "return",
+    "description": "Exit a shell function."
+  },
+  {
+    "command": "rev",
+    "description": "Show contents of a file, reversing the order of characters in every line."
+  },
+  {
+    "command": "rexec",
+    "description": "Remote execution client for exec server."
+  },
+  {
+    "command": "rexecd",
+    "description": "Remote execution server."
+  },
+  {
+    "command": "richtext",
+    "description": "View \u201crichtext\u201d on an ACSII terminal."
+  },
+  {
+    "command": "rlogin",
+    "description": "Used to connect a local host system with a remote host."
+  },
+  {
+    "command": "rlogind",
+    "description": "Acts as the server for rlogin.It facilitates remote login, and authentication based on privileged port numbers from trusted hosts."
+  },
+  {
+    "command": "rm",
+    "description": "Removes specified files and directories (not by default)."
+  },
+  {
+    "command": "rmail",
+    "description": "Handle remote mail received via uucp."
+  },
+  {
+    "command": "rmdir",
+    "description": "Used to remove empty directories."
+  },
+  {
+    "command": "rmmod",
+    "description": "A program to remove modules from Linux kernel."
+  },
+  {
+    "command": "rndc",
+    "description": "Name server control utility. Send command to a BIND DNS server over a TCP connection."
+  },
+  {
+    "command": "rootflags",
+    "description": "Show/set flags for the kernel image."
+  },
+  {
+    "command": "route",
+    "description": "Show/change IP routing table."
+  },
+  {
+    "command": "routed",
+    "description": "A daemon, invoked at boot time, to manage internet routing tables."
+  },
+  {
+    "command": "rpcgen",
+    "description": "An RPC protocol compiler. Parse a file written in the RPC language."
+  },
+  {
+    "command": "rpcinfo",
+    "description": "Shows RPC information. Makes an RPC call to an RPC server and reports the findings."
+  },
+  {
+    "command": "rpm",
+    "description": "A package manager for Linux distributions. Originally developed for RedHat Linux."
+  },
+  {
+    "command": "rsh",
+    "description": "Remote shell. Connects to a specified host and executes commands."
+  },
+  {
+    "command": "rshd",
+    "description": "A daemon that acts as a server for rsh and rcp commands."
+  },
+  {
+    "command": "rsync",
+    "description": "A versitile to for copying files remotely and locally."
+  },
+  {
+    "command": "runlevel",
+    "description": "Shows previous and current SysV runlevel."
+  },
+  {
+    "command": "rup",
+    "description": "Remote status display. Shows current system status for all or specified hosts on the local network."
+  },
+  {
+    "command": "ruptime",
+    "description": "Shows uptime and login details of the machines on the local network."
+  },
+  {
+    "command": "rusers",
+    "description": "Shows the list of the users logged-in to the host or on all machines on the local network."
+  },
+  {
+    "command": "rusersd",
+    "description": "The rsuerd daemon acts as a server that responds to the queries from rsuers command."
+  },
+  {
+    "command": "rwall",
+    "description": "Sends messages to all users on the local network."
+  },
+  {
+    "command": "rwho",
+    "description": "Reports who is logged-in to the hosts on the local network."
+  },
+  {
+    "command": "rwhod",
+    "description": "Acts as a server for rwho and ruptime commands."
+  },
+  {
+    "command": "sane-find-scanner",
+    "description": "Find SCSI and USB scanner and determine their device files."
+  },
+  {
+    "command": "sar",
+    "description": "Used to monitor Linux system\u2019s resources like CPU usage, Memory utilization, I/O devices consumption, etc.."
+  },
+  {
+    "command": "scanadf",
+    "description": "Retrieve multiple images from a scanner equipped with an automatic document feeder (ADF)."
+  },
+  {
+    "command": "scanimage",
+    "description": "Read images from image acquisition devices (scanner or camera) and display on standard output in PNM (Portable aNyMap) format."
+  },
+  {
+    "command": "scp",
+    "description": "Copy files between hosts on a network securely using SSH."
+  },
+  {
+    "command": "screen",
+    "description": "A window manager that enables multiple pseudo-terminals with the help of ANSI/VT100 terminal emulation."
+  },
+  {
+    "command": "script",
+    "description": "Used to make a typescript of everything displayed on the screen during a terminal session."
+  },
+  {
+    "command": "scriptreplay",
+    "description": "Used to replay a typescript/terminal_activity stored in the log file that was recorded by the script command."
+  },
+  {
+    "command": "sdiff",
+    "description": "Shows two files side-by-side and highlights the differences."
+  },
+  {
+    "command": "sed",
+    "description": "Stream editor for filtering and transforming text (from a file or a pipe input)."
+  },
+  {
+    "command": "select",
+    "description": "Synchronous I/O multiplexing."
+  },
+  {
+    "command": "sendmail",
+    "description": "It\u2019s a mail router or an MTA (Mail Transfer Agent). sendmail support can send a mail to one or more recipients using necessary protocols."
+  },
+  {
+    "command": "sensors",
+    "description": "Shows the current readings of all sensor chips."
+  },
+  {
+    "command": "seq",
+    "description": "Displays an incremental sequence of numbers from first to last."
+  },
+  {
+    "command": "service",
+    "description": "This command is used to manage system services."
+  },
+  {
+    "command": "set",
+    "description": "Used to manipulate shell variables and functions."
+  },
+  {
+    "command": "setfdprm",
+    "description": "Sets floppy disk parameters as provided by the user."
+  },
+  {
+    "command": "setkeycodes",
+    "description": "Load kernel scancode-to-keycode mapping table entries."
+  },
+  {
+    "command": "setleds",
+    "description": "Show/change LED light settings of the keyboard."
+  },
+  {
+    "command": "setmetamode",
+    "description": "Define keyboard meta key handling. Without arguments, shows current meta key mode."
+  },
+  {
+    "command": "setquota",
+    "description": "Set disk quotas for users and groups."
+  },
+  {
+    "command": "setsid",
+    "description": "Run a program in a new session."
+  },
+  {
+    "command": "setterm",
+    "description": "Set terminal attributes."
+  },
+  {
+    "command": "sftp",
+    "description": "Secure File Transfer program."
+  },
+  {
+    "command": "sh",
+    "description": "Command interpreter (shell) utility."
+  },
+  {
+    "command": "sha1sum",
+    "description": "Compute and check 160-bit SHA1 checksum to verify file integrity."
+  },
+  {
+    "command": "shift",
+    "description": "Shift positional parameters."
+  },
+  {
+    "command": "shopt",
+    "description": "Shell options."
+  },
+  {
+    "command": "showkey",
+    "description": "Examines codes sent by the keyboard displays them in printable form."
+  },
+  {
+    "command": "showmount",
+    "description": "Shows information about NFS server mount on the host."
+  },
+  {
+    "command": "shred",
+    "description": "Overwrite a file to hide its content (optionally delete it), making it harder to recover it."
+  },
+  {
+    "command": "shutdown",
+    "description": "Power-off the machine."
+  },
+  {
+    "command": "size",
+    "description": "Lists section size and the total size of a specified file."
+  },
+  {
+    "command": "skill",
+    "description": "Send a signal to processes."
+  },
+  {
+    "command": "slabtop",
+    "description": "Show kernel slab cache information in real-time."
+  },
+  {
+    "command": "slattach",
+    "description": "Attack a network interface to a serial line."
+  },
+  {
+    "command": "sleep",
+    "description": "Suspend execution for a specified amount of time (in seconds)."
+  },
+  {
+    "command": "slocate",
+    "description": "Display matches by searching filename databases. Takes ownership and file permission into consideration."
+  },
+  {
+    "command": "snice",
+    "description": "Reset priority for processes."
+  },
+  {
+    "command": "sort",
+    "description": "Sort lines of text files."
+  },
+  {
+    "command": "source",
+    "description": "Run commands from a specified file."
+  },
+  {
+    "command": "split",
+    "description": "Split a file into pieces of fixed size."
+  },
+  {
+    "command": "ss",
+    "description": "Display socket statistics, similar to netstat."
+  },
+  {
+    "command": "ssh",
+    "description": "An SSH client for logging in to a remote machine. It provides encrypted communication between the hosts."
+  },
+  {
+    "command": "ssh-add",
+    "description": "Adds private key identities to the authentication agent."
+  },
+  {
+    "command": "ssh-agent",
+    "description": "It holds private keys used for public key authentication."
+  },
+  {
+    "command": "ssh-keygen",
+    "description": "It generates, manages, converts authentication keys for ssh."
+  },
+  {
+    "command": "ssh-keyscan",
+    "description": "Gather ssh public keys."
+  },
+  {
+    "command": "sshd",
+    "description": "Server for the ssh program."
+  },
+  {
+    "command": "stat",
+    "description": "Display file or filesystem status."
+  },
+  {
+    "command": "statd",
+    "description": "A daemon that listens for reboot notifications from other hosts, and manages the list of hosts to be notified when the local system reboots."
+  },
+  {
+    "command": "strace",
+    "description": "Trace system calls and signals."
+  },
+  {
+    "command": "strfile",
+    "description": "Create a random access file for storing strings."
+  },
+  {
+    "command": "strings",
+    "description": "Search a specified file and prints any printable strings with at least four characters and followed by an unprintable character."
+  },
+  {
+    "command": "strip",
+    "description": "Discard symbols from object files."
+  },
+  {
+    "command": "stty",
+    "description": "Change and print terminal line settings."
+  },
+  {
+    "command": "su",
+    "description": "Change user ID or become superuser."
+  },
+  {
+    "command": "sudo",
+    "description": "Execute a command as superuser."
+  },
+  {
+    "command": "sum",
+    "description": "Checksum and count the block in a file."
+  },
+  {
+    "command": "suspend",
+    "description": "Suspend the execution of the current shell."
+  },
+  {
+    "command": "swapoff",
+    "description": "Disable devices for paging and swapping."
+  },
+  {
+    "command": "swapon",
+    "description": "Enable devices for paging and swapping."
+  },
+  {
+    "command": "symlink",
+    "description": "Create a symbolic link to a file."
+  },
+  {
+    "command": "sync",
+    "description": "Synchronize cached writes to persistent storage."
+  },
+  {
+    "command": "sysctl",
+    "description": "Configure kernel parameters at runtime."
+  },
+  {
+    "command": "sysklogd",
+    "description": "Linux system logging utilities. Provides syslogd and klogd functionalities."
+  },
+  {
+    "command": "syslogd",
+    "description": "Read and log system messages to the system console and log files."
+  },
+  {
+    "command": "systemctl",
+    "description": "This command can be used to start, stop, and check the status of system services."
+  },
+  {
+    "command": "tac",
+    "description": "Concatenate and print files in reverse order. Opposite of cat command."
+  },
+  {
+    "command": "tail",
+    "description": "Show the last 10 lines of each specified file(s)."
+  },
+  {
+    "command": "tailf",
+    "description": "Follow the growth of a log file. (Deprecated command)"
+  },
+  {
+    "command": "talk",
+    "description": "A two-way screen-oriented communication utility that allows two user to exchange messages simultaneously."
+  },
+  {
+    "command": "talkd",
+    "description": "A remote user communication server fortalk."
+  },
+  {
+    "command": "tar",
+    "description": "GNU version of the tar archiving utility. Used to store and extract multiple files from a single archive."
+  },
+  {
+    "command": "taskset",
+    "description": "Set/retrieve a process\u2019s CPU affinity."
+  },
+  {
+    "command": "tcpd",
+    "description": "Access control utility for internet services."
+  },
+  {
+    "command": "tcpdump",
+    "description": "Dump traffic on network. Displays a description of the contents of packets on a network interface that match the boolean expression."
+  },
+  {
+    "command": "tcpslice",
+    "description": "Extract pieces of tcpdump files or merge them."
+  },
+  {
+    "command": "tee",
+    "description": "Read from standard input and write to standard output and files."
+  },
+  {
+    "command": "telinit",
+    "description": "Change SysV runlevel."
+  },
+  {
+    "command": "telnet",
+    "description": "Telnet protocol user interface. Used to interact with another host using telnet."
+  },
+  {
+    "command": "telnetd",
+    "description": "A server for the telnet protocol."
+  },
+  {
+    "command": "test",
+    "description": "Check file type and compare values."
+  },
+  {
+    "command": "tftp",
+    "description": "User interface to the internet TFTP (Trivial File Transfer Protocol)."
+  },
+  {
+    "command": "tftpd",
+    "description": "TFTP server."
+  },
+  {
+    "command": "time",
+    "description": "Run programs and summarize system resource usage."
+  },
+  {
+    "command": "timeout",
+    "description": "Execute a command with a time limit."
+  },
+  {
+    "command": "times",
+    "description": "Shows accumulated user and system times for the shell and it\u2019s child processes."
+  },
+  {
+    "command": "tload",
+    "description": "Shows a graph of the current system load average to the specified tty."
+  },
+  {
+    "command": "tmpwatch",
+    "description": "Recursively remove files and directories which haven\u2019t been accessed for the specified period of time."
+  },
+  {
+    "command": "top",
+    "description": "Displays real-time view of processes running on the system."
+  },
+  {
+    "command": "touch",
+    "description": "Change file access and modification times."
+  },
+  {
+    "command": "tput",
+    "description": "Modify terminal-dependent capabilities, color, etc."
+  },
+  {
+    "command": "tr",
+    "description": "Translate, squeeze, or delete characters from standard input and display on standard output."
+  },
+  {
+    "command": "tracepath",
+    "description": "Traces path to a network host discovering MTU (Maximum Transmission Unit) along this path."
+  },
+  {
+    "command": "traceroute",
+    "description": "Traces the route taken by the packets to reach the network host."
+  },
+  {
+    "command": "trap",
+    "description": "Trap function responds to hardware signals. It defines and creates handlers to run when the shell receives signals."
+  },
+  {
+    "command": "tree",
+    "description": "A recursive directory listing program that produces a depth-indented listing of files."
+  },
+  {
+    "command": "troff",
+    "description": "The troff processor of the groff text formatting system."
+  },
+  {
+    "command": "TRUE",
+    "description": "Exit with a status code indicating success."
+  },
+  {
+    "command": "tset",
+    "description": "Initialize terminal."
+  },
+  {
+    "command": "tsort",
+    "description": "Perform topological sort."
+  },
+  {
+    "command": "tty",
+    "description": "Display the filename of the terminal connected to standard input."
+  },
+  {
+    "command": "tune2fs",
+    "description": "Adjust tuneable filesystem parameters on ext2/ext3/ext4 filesystems."
+  },
+  {
+    "command": "tunelp",
+    "description": "Set various parameters for the line printer devices."
+  },
+  {
+    "command": "type",
+    "description": "Write a description for a command type."
+  },
+  {
+    "command": "ul",
+    "description": "Underline text."
+  },
+  {
+    "command": "ulimit",
+    "description": "Get and set user limits for the calling process."
+  },
+  {
+    "command": "umask",
+    "description": "Set file mode creation mask."
+  },
+  {
+    "command": "umount",
+    "description": "Unmount specified file systems."
+  },
+  {
+    "command": "unalias",
+    "description": "Remove alias definitions for specified alias names."
+  },
+  {
+    "command": "uname",
+    "description": "Show system information."
+  },
+  {
+    "command": "uncompress",
+    "description": "Uncompress the files compressed with the compress command."
+  },
+  {
+    "command": "unexpand",
+    "description": "Convert spaces to tabs for a specified file."
+  },
+  {
+    "command": "unicode_start",
+    "description": "Put keyboard and console in Unicode mode."
+  },
+  {
+    "command": "unicode_stop",
+    "description": "Revert keyboard and console from Unicode mode."
+  },
+  {
+    "command": "uniq",
+    "description": "Report or omit repeating lines."
+  },
+  {
+    "command": "units",
+    "description": "Convert units from one scalar to another."
+  },
+  {
+    "command": "unix2dos",
+    "description": "Converts a Unix text file to DOS format."
+  },
+  {
+    "command": "unrar",
+    "description": "Extract files from a RAR archive."
+  },
+  {
+    "command": "unset",
+    "description": "Remove variable or function names."
+  },
+  {
+    "command": "unshar",
+    "description": "Unpack shell archive scripts."
+  },
+  {
+    "command": "until",
+    "description": "Execute command until a given condition is true."
+  },
+  {
+    "command": "uptime",
+    "description": "Tell how long the system has been running."
+  },
+  {
+    "command": "useradd",
+    "description": "Create a new user or update default user information."
+  },
+  {
+    "command": "userdel",
+    "description": "Delete a user account and related files."
+  },
+  {
+    "command": "usermod",
+    "description": "Modify a user account."
+  },
+  {
+    "command": "username",
+    "description": "It provides a set of commands to fetch username and its configurations from the Linux host."
+  },
+  {
+    "command": "users",
+    "description": "Show the list of active users on the machine."
+  },
+  {
+    "command": "usleep",
+    "description": "Suspend execution for microsecond intervals."
+  },
+  {
+    "command": "uudecode",
+    "description": "Decode a binary file."
+  },
+  {
+    "command": "uuencode",
+    "description": "Encode a binary file."
+  },
+  {
+    "command": "uuidgen",
+    "description": "Created a new UUID (Universally Unique Identifier) table."
+  },
+  {
+    "command": "vdir",
+    "description": "Same asls -l -b. Verbosely list directory contents."
+  },
+  {
+    "command": "vi",
+    "description": "A text editor utility."
+  },
+  {
+    "command": "vidmode",
+    "description": "Set the video mode for a kernel image. Displays current mode value without arguments. Alternative: rdev -v"
+  },
+  {
+    "command": "vim",
+    "description": "Vi Improved, a text-based editor which is a successor to vi."
+  },
+  {
+    "command": "vmstat",
+    "description": "Shows information about processes, memory, paging, block IO, traps, disks, and CPU activity."
+  },
+  {
+    "command": "vnstat",
+    "description": "Used by system administrators in order to monitor network parameters such as bandwidth consumption or maybe some traffic flowing in or out."
+  },
+  {
+    "command": "volname",
+    "description": "Returns volume name for a device formatted with an ISO-9660 filesystem. For example, CD-ROM."
+  },
+  {
+    "command": "w",
+    "description": "Show who is logged-on and what they\u2019re doing."
+  },
+  {
+    "command": "wait",
+    "description": "Waits for a specified process ID(s) to terminate and returns the termination status."
+  },
+  {
+    "command": "wall",
+    "description": "Display a message on the terminals all the users who are currently logged-in."
+  },
+  {
+    "command": "warnquota",
+    "description": "Send mail to the users who\u2019ve exceeded their disk quota soft limit."
+  },
+  {
+    "command": "watch",
+    "description": "Runs commands repeatedly until interrupted and shows their output and errors."
+  },
+  {
+    "command": "wc",
+    "description": "Print newline, word, and byte count for each of the specified files."
+  },
+  {
+    "command": "wget",
+    "description": "A non-interactive file download utility."
+  },
+  {
+    "command": "whatis",
+    "description": "Display one line manual page descriptions."
+  },
+  {
+    "command": "whereis",
+    "description": "Locate the binary, source, and man page files for a command."
+  },
+  {
+    "command": "which",
+    "description": "For a given command, lists the pathnames for the files which would be executed when the command runs."
+  },
+  {
+    "command": "while",
+    "description": "Conditionally execute commands (while loop)."
+  },
+  {
+    "command": "who",
+    "description": "Shows who is logged on."
+  },
+  {
+    "command": "whoami",
+    "description": "Displays the username tied to the current effective user ID."
+  },
+  {
+    "command": "whois",
+    "description": "Looks for an object in a WHOIS database"
+  },
+  {
+    "command": "write",
+    "description": "Display a message on other user\u2019s terminal."
+  },
+  {
+    "command": "xargs",
+    "description": "Runs a command using initial arguments and then reads remaining arguments from standard input."
+  },
+  {
+    "command": "xdg-open",
+    "description": "Used to open a file or URL in an application preferred by the user."
+  },
+  {
+    "command": "xinetd",
+    "description": "Extended internet services daemon. Works similar to inetd."
+  },
+  {
+    "command": "xz",
+    "description": "Compress/ Decompress .xz and .lzma files."
+  },
+  {
+    "command": "yacc",
+    "description": "Yet Another Compiler Compiler, a GNU Project parser generator."
+  },
+  {
+    "command": "yes",
+    "description": "Repeatedly output a line with a specified string(s) until killed."
+  },
+  {
+    "command": "ypbind",
+    "description": "A daemon that helps client processes to connect to an NIS server."
+  },
+  {
+    "command": "ypcat",
+    "description": "Shows the NIS map (or database) for the specified MapName parameter."
+  },
+  {
+    "command": "ypinit",
+    "description": "Sets up NIS maps on an NIS server."
+  },
+  {
+    "command": "ypmatch",
+    "description": "Shows values for specified keys from an NIS map."
+  },
+  {
+    "command": "yppasswd",
+    "description": "Change NIS login password."
+  },
+  {
+    "command": "yppasswdd",
+    "description": "Acts as a server for the yppasswd command. Receives and executes requests."
+  },
+  {
+    "command": "yppoll",
+    "description": "Shows the ID number or version of NIS map currently used on the NIS server."
+  },
+  {
+    "command": "yppush",
+    "description": "Forces slave NIS servers to copy updated NIS maps."
+  },
+  {
+    "command": "ypserv",
+    "description": "A daemon activated at system startup. It looks for information in local NIS maps."
+  },
+  {
+    "command": "ypset",
+    "description": "Point a client (running ypbind) to a specific server (running ypserv)."
+  },
+  {
+    "command": "yptest",
+    "description": "Calls various functions to check the configuration of NIS services."
+  },
+  {
+    "command": "ypwhich",
+    "description": "Shows the hostname for NIS server or master server for a given map."
+  },
+  {
+    "command": "ypxfr",
+    "description": "Transfers NIS server map from server to a local host."
+  },
+  {
+    "command": "zcat",
+    "description": "Used to compress/uncompress files. Similar to gzip"
+  },
+  {
+    "command": "zcmp",
+    "description": "Compare compressed files."
+  },
+  {
+    "command": "zdiff",
+    "description": "Compare compressed files line by line."
+  },
+  {
+    "command": "zdump",
+    "description": "Displays time for the timezone mentioned."
+  },
+  {
+    "command": "zforce",
+    "description": "Adds .gz extension to all gzipped files."
+  },
+  {
+    "command": "zgrep",
+    "description": "Performs grep on compressed files."
+  },
+  {
+    "command": "zic",
+    "description": "Creates time conversion information files using the specified input files."
+  },
+  {
+    "command": "zip",
+    "description": "A file compression and packaging utility."
+  },
+  {
+    "command": "zless",
+    "description": "Displays information of a compressed file (using less command) on the terminal one screen at a time."
+  },
+  {
+    "command": "zmore",
+    "description": "Displays output of a compressed file (using more command) on the terminal one page at a time."
+  },
+  {
+    "command": "znew",
+    "description": "Recompress .z files to .gz. files."
+  }
+]
