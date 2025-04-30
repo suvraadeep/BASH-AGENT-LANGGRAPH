@@ -1,0 +1,1 @@
+The output should be a Bash script, not a boolean value. Please provide a script that recursively searches for regular files in the testbed directory tree, filters them based on their last modification time (more than 7 days ago), and compresses them using gzip.
