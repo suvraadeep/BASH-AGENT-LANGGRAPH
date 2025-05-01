@@ -30,7 +30,7 @@ GROQ_LLM = ChatGroq(model="llama3-70b-8192")
 
 # Prepare embeddings and build a RAG database of Bash command descriptions
 embeddings = HuggingFaceEmbeddings(model_name="microsoft/graphcodebert-base")
-json_filepath = 'bash_commands_full.json'
+json_filepath = './data/bash_commands_full.json'
 with open(json_filepath, 'r', encoding='utf-8') as f:
     command_data = json.load(f)
 

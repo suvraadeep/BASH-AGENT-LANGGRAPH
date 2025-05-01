@@ -9,3 +9,4 @@ unstructured
 sentence_transformers
 langchain_huggingface
 tiktoken
+intercode-bench
