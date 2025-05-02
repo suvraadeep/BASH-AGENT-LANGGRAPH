@@ -13,6 +13,10 @@ A modular Bash scripting agent made using LangChain, Groq’s LLM, The workflow:
 
 ---
 
+## Sample Output:
+![image](https://github.com/user-attachments/assets/70de61a6-6213-4095-ac35-91722bdae15c)
+
+
 ## Installation
 
 ```bash
