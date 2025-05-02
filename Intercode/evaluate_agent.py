@@ -5,16 +5,8 @@ import os
 
 
 def call_langgraph_agent(prompt: str) -> list[str]:
-    """
-    Invoke your LangGraph Bash agent (main.py) on the given prompt.
-    Clears SSL_CERT_FILE to avoid SSL context errors when agent initializes API clients.
-    Assumes evaluate_agent.py and main.py are in the same directory.
-    Returns a list of shell commands (one per line).
-    If the agent fails, logs the error and returns an empty list to allow continued evaluation.
-    """
-    # locate the agent script
+
     agent_script = os.path.join(os.path.dirname(__file__), "main.py")
-    # prepare environment without SSL_CERT_FILE
     agent_env = os.environ.copy()
     agent_env.pop("SSL_CERT_FILE", None)
     try:
@@ -25,7 +17,16 @@ def call_langgraph_agent(prompt: str) -> list[str]:
             check=True,
             env=agent_env,
         )
-        commands = [line.strip() for line in result.stdout.splitlines() if line.strip()]
+        raw_lines = result.stdout.splitlines()
+        commands = []
+        for line in raw_lines:
+            stripped = line.strip()
+            if not stripped:
+                continue
+            # Skip Markdown code fences
+            if stripped.startswith("```"):
+                continue
+            commands.append(stripped)
     except subprocess.CalledProcessError as e:
         print(f"[Agent Error] Exit code {e.returncode} for prompt: {prompt}")
         if e.stderr:
@@ -34,10 +35,11 @@ def call_langgraph_agent(prompt: str) -> list[str]:
     return commands
 
 
+
 def evaluate_all_tasks():
     # 1. Ensure the Docker image is built
     bash_build_docker()
-    
+
     # 2. Create the BashEnv
     env = BashEnv(
         image_name=bash_image_name,
@@ -45,39 +47,42 @@ def evaluate_all_tasks():
         traj_dir="bash_logs/",
         verbose=False,
     )
-    
+
     total = len(env.data_loader)
     success_count = 0
-    
+
     for idx in range(total):
-        # 3a. Reset and fetch prompt
+        # 3a. Reset the environment and fetch the next prompt
         env.reset(idx)
         prompt = env.query
-        
-        # 3b. Get the agent's Bash script as a list of commands
+
+        # 3b. Get the agent's Bash script (full script as one string)
         commands = call_langgraph_agent(prompt)
         if not commands:
             print(f"Skipping Task {idx+1}: no commands generated.\n")
             continue
-        
-        # 3c. Execute each command in the BashEnv
+
+        # 3c. Execute the full script in one go
+        # (There should typically be only one command string in the list)
         for cmd in commands:
             obs, _, done, info = env.step(cmd)
             if done:
                 break
-        
-        # 3d. Submit to score
+
+        # 3d. Submit to get the reward
         obs, reward, done, info = env.step("submit")
-        
-        # 3e. Record success
+
+        # 3e. Record success if reward is 1.0
         if reward == 1.0:
             success_count += 1
-        
+
         print(f"Task {idx+1}/{total} → reward={reward}\n")
-    
+
     # 4. Final report
     success_rate = 100.0 * success_count / total
-    print(f"Completed {total} tasks: {success_count} successes → {success_rate:.1f}% success rate")
+    print(f"Completed {total} tasks: {success_count} successes → "
+          f"{success_rate:.1f}% success rate")
+
 
 if __name__ == "__main__":
     evaluate_all_tasks()
