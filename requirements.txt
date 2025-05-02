@@ -10,3 +10,6 @@ sentence_transformers
 langchain_huggingface
 tiktoken
 intercode-bench
+fastapi 
+uvicorn
+langchain-google-genai

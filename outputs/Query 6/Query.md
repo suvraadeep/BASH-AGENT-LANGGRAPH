@@ -1,0 +1,1 @@
+find files in the /workspace directory with pattern` *.c  that larger than 1 Kilobytes
