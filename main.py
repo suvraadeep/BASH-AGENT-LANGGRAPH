@@ -27,11 +27,11 @@ from langgraph.graph import END, StateGraph
 
 # Load environment variables silently
 load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
+#groq_api_key = os.getenv("GROQ_API_KEY")
+#if groq_api_key is None:
+#    raise ValueError("GROQ_API_KEY not found in environment. Please set it in your .env file.")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-if groq_api_key is None:
-    # Still raise error if key is missing, but don't print success message
-    raise ValueError("GROQ_API_KEY not found in environment. Please set it in your .env file.")
+
 if GOOGLE_API_KEY is None:
     # Still raise error if key is missing, but don't print success message
     raise ValueError("GOOGLE_API_KEY not found in environment. Please set it in your .env file.")
@@ -52,7 +52,7 @@ class LangGraphAgent:
     def __init__(self, model_name="llama3-70b-8192", embeddings_model="microsoft/graphcodebert-base", json_path='./data/bash_commands_full.json', db_persist_dir="linux_cmd_db", db_collection_name="rag_linux_commands"):
         """Initializes the LangGraphAgent silently."""
         # Initialize LLM
-        self.GROQ_LLM = ChatGroq(model=model_name, groq_api_key=groq_api_key)
+        #self.GROQ_LLM = ChatGroq(model=model_name, groq_api_key=groq_api_key)
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash",
             temperature=0,

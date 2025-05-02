@@ -1,4 +1,4 @@
-Question: Does the target path need to be absolute or relative?
+Question: Does folder A exist?
 
 Answer:
 I don’t know.
@@ -6,7 +6,7 @@ I don’t know.
 ---
 
 
-Question: Should the script handle cases where the symbolic link is broken (target doesn't exist)?
+Question: Should hidden files be included in the count?
 
 Answer:
 I don’t know.
@@ -14,10 +14,10 @@ I don’t know.
 ---
 
 
-Question: Should the script recursively search subdirectories?
+Question: Should subdirectories be recursively searched?
 
 Answer:
-I don’t know.
+Yes, `mdeltree` recursively deletes MS-DOS directory and its contents.
 
 ---
 
