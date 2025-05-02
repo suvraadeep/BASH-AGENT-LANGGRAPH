@@ -3,6 +3,7 @@ import json
 from typing import List, Dict, Any
 from typing_extensions import TypedDict
 from dotenv import load_dotenv
+import sys
 
 # Suppress most logging from langchain and related libraries
 import logging
@@ -27,12 +28,13 @@ from langgraph.graph import END, StateGraph
 
 # Load environment variables silently
 load_dotenv()
-#groq_api_key = os.getenv("GROQ_API_KEY")
-#if groq_api_key is None:
-#    raise ValueError("GROQ_API_KEY not found in environment. Please set it in your .env file.")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
+if groq_api_key is None:
+    raise ValueError("GROQ_API_KEY not found in environment. Please set it in your .env file.")
 
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if GOOGLE_API_KEY is None:
+    # Still raise error if key is missing, but don't print success message
     raise ValueError("GOOGLE_API_KEY not found in environment. Please set it in your .env file.")
 
 # Define the state schema for the graph
@@ -48,10 +50,10 @@ class GraphState(TypedDict):
     rag_questions: List[str]
 
 class LangGraphAgent:
-    def __init__(self, model_name="llama3-70b-8192", embeddings_model="microsoft/graphcodebert-base", json_path='./data/bash_commands_full.json', db_persist_dir="linux_cmd_db", db_collection_name="rag_linux_commands"):
+    def __init__(self, model_name="meta-llama/llama-4-maverick-17b-128e-instruct", embeddings_model="microsoft/graphcodebert-base", json_path='./data/bash_commands_full.json', db_persist_dir="linux_cmd_db", db_collection_name="rag_linux_commands"):
         """Initializes the LangGraphAgent silently."""
         # Initialize LLM
-        #self.GROQ_LLM = ChatGroq(model=model_name, groq_api_key=groq_api_key)
+        self.GROQ_LLM = ChatGroq(model=model_name, groq_api_key=groq_api_key)
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash",
             temperature=0,
@@ -130,7 +132,8 @@ You are a Bash scripting assistant. Based on the TASK DESCRIPTION, TASK CATEGORY
 - If TASK_CATEGORY is "command_enquiry", produce a ready-to-run Bash script.
 - Otherwise, produce a single clarification question.
 
-**Output format**: Return ONLY one JSON object. If returning a script, the JSON should have a key "script_md" whose value is the entire script (including any ```bash code fences) as a string. If asking for clarification, use key "clarification" with the question string as value. Use strict JSON (double quotes) and no extra text.
+**Output format**: Return ONLY one JSON object. If returning a script, the JSON should have a key "script_md" whose value is the entire script (including any 
+bash code fences) as a string. If asking for clarification, use key "clarification" with the question string as value. Use strict JSON (double quotes) and no extra text. Assume all necessary files and directories already exist—do not include commands to create them just return the final bash code.
 
 TASK_DESCRIPTION:
 {initial_prompt}
@@ -166,7 +169,7 @@ GENERATED_OUTPUT:
             template="""\
 You are the Quality Control Agent for Bash scripting tasks.
 Read TASK_DESCRIPTION, TASK_CATEGORY, and RESEARCH_INFO, and analyze the GENERATED_OUTPUT (script or question).
-Return ONLY a JSON object with key "draft_analysis" and the feedback string as value. Use valid JSON (double quotes), no extra text.
+Return ONLY a JSON object with key "draft_analysis" and the feedback string as value. Use valid JSON (double quotes), no extra text. Assume all necessary files and directories already exist—do not include commands to create them just return the final bash code.
 
 TASK_DESCRIPTION:
 {initial_prompt}
@@ -186,7 +189,7 @@ GENERATED_OUTPUT:
         self.rewrite_script_prompt = PromptTemplate(
             template="""\
 You are the Final Bash Script Agent. Using the QC feedback, rewrite the draft Bash script to fully meet the TASK_DESCRIPTION.
-Return ONLY a JSON object with key "final_output" whose value is the improved script (or clarification question) as a string. Use valid JSON (double quotes) and no extra text.
+Return ONLY a JSON object with key "final_output" whose value is the improved script (or clarification question) as a string. Use valid JSON (double quotes) and no extra text. Assume all necessary files and directories already exist—do not include commands to create them just return the final bash code.
 
 TASK_DESCRIPTION:
 {initial_prompt}
@@ -239,17 +242,17 @@ Answer:
 
     def _define_chains(self):
         """Defines all LangChain Runnable chains."""
-        self.research_router = self.research_router_prompt | self.llm | JsonOutputParser()
-        self.question_rag_chain = self.search_rag_prompt | self.llm | JsonOutputParser()
-        self.draft_writer_chain = self.draft_writer_prompt | self.llm | JsonOutputParser()
-        self.rewrite_router = self.rewrite_router_prompt | self.llm | JsonOutputParser()
-        self.draft_analysis_chain = self.draft_analysis_prompt | self.llm | JsonOutputParser()
-        self.rewrite_chain = self.rewrite_script_prompt | self.llm | JsonOutputParser()
-        self.bash_code_generator = self.bash_code_prompt | self.llm | StrOutputParser()
+        self.research_router = self.research_router_prompt | self.GROQ_LLM | JsonOutputParser()
+        self.question_rag_chain = self.search_rag_prompt | self.GROQ_LLM | JsonOutputParser()
+        self.draft_writer_chain = self.draft_writer_prompt | self.GROQ_LLM | JsonOutputParser()
+        self.rewrite_router = self.rewrite_router_prompt | self.GROQ_LLM | JsonOutputParser()
+        self.draft_analysis_chain = self.draft_analysis_prompt | self.GROQ_LLM | JsonOutputParser()
+        self.rewrite_chain = self.rewrite_script_prompt | self.GROQ_LLM | JsonOutputParser()
+        self.bash_code_generator = self.bash_code_prompt | self.GROQ_LLM | StrOutputParser()
         self.rag_chain = (
             {"context": self.retriever, "question": RunnablePassthrough()}
             | self.rag_prompt
-            | self.llm
+            | self.GROQ_LLM
             | StrOutputParser()
         )
 
@@ -495,9 +498,8 @@ Answer:
             final_state = self.app.invoke(inputs)
             final_code = final_state.get("final_code", "# Error: Final code not found in state.")
             # print("\n--- Workflow Complete ---") # Removed print
-
-            # Only print the final result block
-            print("\nGenerated Script/Output:\n")
+            final_code = final_code.strip()
+            final_code = final_code.replace("```bash", "").replace("```", "")
             print(final_code)
 
         except Exception as e:
@@ -522,9 +524,12 @@ if __name__ == "__main__":
 
     # Initialize and run the agent
     agent = LangGraphAgent(json_path=json_data_path) # Pass the checked path
-    user_query = input("Enter the Bash task description: ")
-    if user_query:
-        agent.run(user_query)
+    if len(sys.argv) > 1:
+        # Use all command-line arguments as the task description
+        user_query = " ".join(sys.argv[1:])
     else:
-        # Keep feedback for no input
-        print("No input provided. Exiting.")
+        user_query = input("Enter the Bash task description: ")
+    if not user_query:
+        # No input: exit without printing anything
+        sys.exit(0)
+    agent.run(user_query)
