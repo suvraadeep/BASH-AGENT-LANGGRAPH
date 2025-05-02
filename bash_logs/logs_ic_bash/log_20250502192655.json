@@ -1,0 +1,27 @@
+{
+  "environment": "ic_bash",
+  "query_idx": 8,
+  "query": "List all files in the directory /testbed/dir1 and sort them by size in human-readable format",
+  "gold": "ls -lhS /testbed/dir1",
+  "reward": 0.67,
+  "trajectory": [
+    {
+      "action": "ls -lhS /testbed/dir1",
+      "observation": "Malformed command"
+    }
+  ],
+  "info": {
+    "action_executed": false,
+    "corrupt_gold": false,
+    "reward": {
+      "file_diff": 0.33,
+      "file_changes": 0.33,
+      "answer_similarity": 0.0
+    },
+    "diff_miss": [],
+    "diff_extra": [],
+    "agent_obs": "Malformed command",
+    "eval_obs": "total 8K     \ndrwxr-xr-x    3 root     root        4.0K Apr 18 05:49 subdir1\n-rw-r--r--    1 root     root          14 May  2 12:15 textfile1.txt\n",
+    "answer_similarity": 0.0
+  }
+}
