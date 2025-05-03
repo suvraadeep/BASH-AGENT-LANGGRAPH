@@ -10,7 +10,6 @@ logging.getLogger("langchain_core.output_parsers.json").setLevel(logging.ERROR)
 logging.getLogger("langchain_huggingface.embeddings").setLevel(logging.ERROR)
 logging.getLogger("huggingface_hub.file_download").setLevel(logging.ERROR)
 
-
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
