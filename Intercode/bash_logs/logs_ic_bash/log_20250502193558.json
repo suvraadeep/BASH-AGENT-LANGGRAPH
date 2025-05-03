@@ -1,0 +1,31 @@
+{
+  "environment": "ic_bash",
+  "query_idx": 20,
+  "query": "Find all files in the directory /testbed that have been modified in the last 24 hours and print their path",
+  "gold": "find /testbed -type f -mtime -1 -print",
+  "reward": 0.67,
+  "trajectory": [
+    {
+      "action": "#!/bin/bash",
+      "observation": "Malformed command"
+    },
+    {
+      "action": "find /testbed -type f -mmin -$((24*60)) -print",
+      "observation": "Malformed command"
+    }
+  ],
+  "info": {
+    "action_executed": false,
+    "corrupt_gold": false,
+    "reward": {
+      "file_diff": 0.33,
+      "file_changes": 0.33,
+      "answer_similarity": 0.0
+    },
+    "diff_miss": [],
+    "diff_extra": [],
+    "agent_obs": "Malformed command",
+    "eval_obs": "/testbed/dir1/textfile1.txt\n",
+    "answer_similarity": 0.0
+  }
+}

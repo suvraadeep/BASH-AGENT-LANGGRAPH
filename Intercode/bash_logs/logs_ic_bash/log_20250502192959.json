@@ -1,0 +1,27 @@
+{
+  "environment": "ic_bash",
+  "query_idx": 12,
+  "query": "Rename all files with extension .txt under the directory /testbed to have a .md extension instead",
+  "gold": "find /testbed -type f -name '*.txt' -exec rename .txt .md {} +",
+  "reward": 0.67,
+  "trajectory": [
+    {
+      "action": "find /testbed -type f -name \"*.txt\" | while read file; do mv \"$file\" \"${file%.txt}.md\"; done",
+      "observation": "Malformed command"
+    }
+  ],
+  "info": {
+    "action_executed": false,
+    "corrupt_gold": false,
+    "reward": {
+      "file_diff": 0.33,
+      "file_changes": 0.33,
+      "answer_similarity": 0.0
+    },
+    "diff_miss": [],
+    "diff_extra": [],
+    "agent_obs": "Malformed command",
+    "eval_obs": "find: rename: No such file or directory\n",
+    "answer_similarity": 0.0
+  }
+}

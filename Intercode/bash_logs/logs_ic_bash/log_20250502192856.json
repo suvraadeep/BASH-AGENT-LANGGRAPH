@@ -1,0 +1,27 @@
+{
+  "environment": "ic_bash",
+  "query_idx": 11,
+  "query": "Find all empty directories in the directory /testbed and delete them",
+  "gold": "find /testbed -type d -empty -delete",
+  "reward": 0.67,
+  "trajectory": [
+    {
+      "action": "find /testbed -type d -empty -exec rmdir {} +",
+      "observation": "Malformed command"
+    }
+  ],
+  "info": {
+    "action_executed": false,
+    "corrupt_gold": false,
+    "reward": {
+      "file_diff": 0.33,
+      "file_changes": 0.33,
+      "answer_similarity": 0.0
+    },
+    "diff_miss": [],
+    "diff_extra": [],
+    "agent_obs": "Malformed command",
+    "eval_obs": "",
+    "answer_similarity": 0.0
+  }
+}
