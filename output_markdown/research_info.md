@@ -1,23 +1,23 @@
-Question: Does folder A exist?
+Question: What is the command to find symbolic links?
 
 Answer:
-I don’t know.
+find -type l
 
 ---
 
 
-Question: Should hidden files be included in the count?
+Question: How to specify the directory to search?
 
 Answer:
-I don’t know.
+-I
 
 ---
 
 
-Question: Should subdirectories be recursively searched?
+Question: How to print the target path of each symbolic link?
 
 Answer:
-Yes, `mdeltree` recursively deletes MS-DOS directory and its contents.
+readlink {} \;
 
 ---
 
