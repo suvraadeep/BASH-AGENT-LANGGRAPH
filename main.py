@@ -4,7 +4,6 @@ from typing import List, Dict, Any
 from typing_extensions import TypedDict
 from dotenv import load_dotenv
 
-# Suppress most logging from langchain and related libraries
 import logging
 logging.getLogger("langchain_core.prompts.prompt").setLevel(logging.ERROR)
 logging.getLogger("langchain_core.output_parsers.json").setLevel(logging.ERROR)
@@ -55,10 +54,6 @@ class LangGraphAgent:
         #self.GROQ_LLM = ChatGroq(model=model_name, groq_api_key=groq_api_key)
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash",
-            temperature=0,
-            max_tokens=None,
-            timeout=None,
-            max_retries=2,
             api_key=GOOGLE_API_KEY,
         )
 
