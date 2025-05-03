@@ -1,3 +1,4 @@
+
 ```bash
-find A -type f | wc -l
+find /testbed -type l -exec readlink {} \;
 ```
